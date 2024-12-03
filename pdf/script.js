@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
         const pdfName = globalData.pdf.name;
         const pdfLink = globalData.pdf.link;
         header.innerText = `${pdfName} - ${globalData.resource.replace(/\b\w/g, char => char.toUpperCase())}`;
-        document.getElementById("pdf-iframe").src = pdfLink;
+        document.getElementById("pdf-embed").src = pdfLink;
     } else {
         console.error("No global data found");
     }

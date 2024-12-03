@@ -15,7 +15,12 @@ fetch("./repository.json")
 			header.innerText = key.replace(/\b\w/g, char => char.toUpperCase());
 			const description = document.createElement("div");
 			description.classList.add("p");
-			description.innerText = value.description || "No description provided";
+			let desc = value.description || "No description provided";
+			let words = desc.split(' ');
+			if (words.length > 40) {
+				desc = words.slice(0, 40).join(' ') + '...';
+			}
+			description.innerText = desc;
 			description.appendChild(document.createElement("br"));
 			description.appendChild(document.createElement("br"));
 			card.appendChild(header);
