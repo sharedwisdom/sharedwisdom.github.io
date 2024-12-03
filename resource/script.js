@@ -16,11 +16,12 @@ window.addEventListener("load", () => {
                 const button = document.createElement("button");
                 button.classList.add("move-right");
                 button.textContent = key;
-                button.addEventListener("click", function () {
-                    globalData.pdf = {"name": key, "link": value};
-                    localStorage.setItem("globalData", JSON.stringify(globalData));
-                    window.location.href = "../pdf/index.html";
-                });
+                // button.addEventListener("click", function () {
+                //     globalData.pdf = {"name": key, "link": value};
+                //     localStorage.setItem("globalData", JSON.stringify(globalData));
+                //     window.location.href = "../pdf/index.html";
+                // });
+                aTag.href = value;
                 aTag.appendChild(button);
                 description.appendChild(aTag);
             });
