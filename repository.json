@@ -1,0 +1,8 @@
+{
+    "compilers": {
+        "description": "This compiler course offers hands-on experience in building compilers, covering topics like lexical analysis, parsing, syntax and semantic analysis, optimization, and code generation. Students will learn how to design and implement each stage of a compiler while working with real-world tools and techniques. By the end, you'll have a solid understanding of compiler construction and the theory behind it.",
+        "links": {
+            "lecture_notes": "https://drive.google.com/file/d/17LhYPT2DW9qWSOTwaVEfLZIoaAO1UrgO/view?usp=sharing"
+        }
+    }
+}
