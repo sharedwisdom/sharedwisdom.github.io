@@ -11,10 +11,12 @@
     "Big Data Analytics": {
         "description": "Distributed processing frameworks have emerged as a feasible and cost effective way of analyzing the increasing volume of data. This course provides an understanding of most popular distributed processing frameworks – Hadoop, Spark and Giraph. Example Applications will include Graph Analysis algorithms such as BFS, Page Rank, Finding Graph Patterns; Finding Similar Items, Mining Algorithms such as Clustering, Frequent Itemsets, Data Streams. Hands-on exercises will prepare those taking this course to be able to apply these frameworks in practice.",
         "links": {
-            "Lecture Slides": "https://drive.google.com/file/d/17dApPMr0OkxPoGLqmR7Ff96kUSmzqGIE/preview"
+            "Lecture Slides": "https://drive.google.com/file/d/17dApPMr0OkxPoGLqmR7Ff96kUSmzqGIE/preview",
+			"Quizzes": "https://drive.google.com/file/d/17ea2bgCxshmKxxFJd0ghuuBGz_6mZZIS/preview"
         },
         "courtesy": {
-            "Lecture Slides": "https://www.iiitd.edu.in/~vikram/"
+            "Lecture Slides": "https://www.iiitd.edu.in/~vikram/",
+            "Quizzes": "https://www.iiitd.edu.in/~vikram/"
         }
     }
 }
