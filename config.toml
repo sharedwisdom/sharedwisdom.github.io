@@ -1,0 +1,49 @@
+theme = "duckquill"
+title = "Shared Wisdom"
+base_url = "https://sharedwisdom.github.io/"
+
+compile_sass = true
+minify_html = true
+generate_feeds = false
+build_search_index = true
+
+taxonomies = [
+  {name = "tags", feed = true},
+]
+
+[markdown]
+highlight_code = false
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "solarized-dark", filename = "syntax-theme-dark.css" },
+  { theme = "solarized-light", filename = "syntax-theme-light.css" },
+]
+smart_punctuation = true
+hard_breaks = false
+render_emoji = true
+unsafe = true
+
+[extra]
+primary_color = "#5100ff"
+animated_favicon = false
+date_format = "%d %B %Y"
+issues_url = "https://github.com/sharedwisdom/sharedwisdom.github.io/issues"
+source_url = "https://github.com/sharedwisdom/sharedwisdom.github.io"
+
+[extra.nav]
+icons = true
+links = [
+  {url = "$BASE_URL/resources", name = "Resources", icon = "journal-bookmark"},
+  {url = "$BASE_URL/contributing", name = "Contributing", icon = "vector-pen"},
+  {url = "https://github.com/sharedwisdom/sharedwisdom.github.io", name = "Github", icon = "github"},
+]
+
+[extra.footer]
+show_copyright = true
+show_powered_by = false
+
+[extra.comments]
+host = "vmst.io"
+user = "hyouteki"
+show_qr = true
+locale = "en-IE"
