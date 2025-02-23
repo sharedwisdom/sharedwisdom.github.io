@@ -8,4 +8,6 @@ The course covers principles of compiler design. It provides an overview of a co
 ### Resources
 | Resource | Courtesy |
 | :-- | :-- |
-| <a class="inline-button" href="https://drive.google.com/file/d/17LhYPT2DW9qWSOTwaVEfLZIoaAO1UrgO/preview" target="_blank">Lecture_Slides</a> | <a class="inline-button" href="https://github.com/piyus" target="_blank">Piyus</a> |
+| <a class="inline-button" href="https://drive.google.com/file/d/17LhYPT2DW9qWSOTwaVEfLZIoaAO1UrgO/preview" target="_blank">Lecture Slides</a> | <a class="inline-button" href="https://github.com/piyus" target="_blank">Piyus</a> |
+| <a class="inline-button" href="https://ninthcircle.notion.site/Compilers-Notes-9debe6c0ad3d4c5f90f0c21c3f8cba3d" target="_blank">Notes</a> | <a class="inline-button" href="https://codeberg.org/ninthcircle" target="_blank">Ninthcircle</a> |
+| <a class="inline-button" href="https://hyouteki.github.io/projects/cop" target="_blank">Assignment Solutions</a> | <a class="inline-button" href="https://codeberg.org/ninthcircle" target="_blank">Ninthcircle</a> |
